@@ -10,7 +10,7 @@
 
 html {
   font-family: "Karla", sans-serif;
-  font-size: 16px;
+  font-size: calc(0.3em + 1vmax);
 }
 
 h3,
@@ -33,7 +33,7 @@ header {
       rgba(0, 0, 0, 0.555),
       rgba(0, 0, 0, 0.212)
     ),
-    url(./img/andrea-donato-xIYzPKPYqQg-unsplash.jpg);
+    url(./img/335152047sst1636722362.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -156,7 +156,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   height: calc(99vh - 80px);
-  padding: 6em 0.75em;
+  padding: 6em 0.25em;
   text-align: center;
 }
 
@@ -288,12 +288,12 @@ nav ul li a {
     margin-right: 1.75em;
   }
 
-  .bg-hero h3 {
+  /* .bg-hero h3 {
     font-size: 0.85rem;
   }
   .bg-hero h1 {
     font-size: 3.15rem;
-  }
+  } */
 }
 
 @media (max-width: 450px) {
@@ -309,13 +309,13 @@ nav ul li a {
     width: 75px;
   }
 
-  .bg-hero h3 {
+  /* .bg-hero h3 {
     font-size: 0.85rem;
     margin-bottom: 0.55em;
   }
   .bg-hero h1 {
     font-size: 2.25rem;
-  }
+  } */
 
   .bg-hero button {
     margin-top: 0.55em;
