@@ -305,9 +305,16 @@ nav ul li a {
 @media (max-width: 450px) {
   header {
     height: 85vh;
+    background-image: linear-gradient(
+        1deg,
+        rgba(0, 0, 0, 0.514),
+        rgba(0, 0, 0, 0.178)
+      ),
+      url(./img/bg-hero.jpg);
   }
 
   .bg-hero {
+    padding: 4.5em 0.25em;
     height: calc(100% - 75px);
   }
 
@@ -340,16 +347,16 @@ nav ul li a {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 360px) {
   header {
     height: 95vh;
   }
 
   .bg-hero h3 {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
   }
   .bg-hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
   }
 }
 
